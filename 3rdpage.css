@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://scontent.fhdy1-1.fna.fbcdn.net/v/t1.15752-9/300852949_780041626665426_2513044882757221952_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=qdSAaJ6P83YAX_a0Wuo&_nc_ht=scontent.fhdy1-1.fna&oh=03_AVIdm_0Ut4yzOoxLiAvpHjhjpso5CDr2AbVDGfXD23O8_w&oe=635324AA');
+header{
+ background-color:#3D3D3D;
+padding-top: 40px;
+}
+.container {
+ position: relative;
+ width:90%;
+margin: 0 auto;
+
+}
+.nbar{
+ display:flex;
+ justify-content:space-between;
+align-items:center;
+text-align: center;
+}
+.lego a{
+ 
+ font-weight:600;
+ letter-spacing:2px;
+ background-color: #171717;
+  border: none;
+  border-radius: 7px;
+  margin-top: 10px;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+* li{
+ list-style:none;
+}
+nav ul li{
+margin-right:15px;
+	font-weight:600;
+ letter-spacing:2px;
+ background-color: #171717;
+  border: none;
+  border-radius: 7px;
+  margin-top: 10px;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.bar{
+ display:none;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans' , sans-serif;
+	
+	
+}
+section.banner{
+    background-image: url(https://i.pinimg.com/originals/75/66/58/75665872e330925c3478675eaf4ba3aa.jpg);
+	padding: 2.4%;
+	height: 90vh;
+	
+}
+.banner-flex{
+	display: flex;
+	align-items: center;	
+}
+.side-img{
+	width: 36%;
+	
+}
+.side-text{
+	width: 64%;
+	padding-left: 7%;
+
+}
+.img-box img{
+	width: 100%;
+	
+}
+.side-text h2{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: aliceblue;
+	text-transform: uppercase;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+.side-text h3{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: aliceblue;
+	text-transform: uppercase;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.side-text h3 span{
+	color: #FFB400;
+	padding: 25px 0 0;
+	text-transform: uppercase;
+}
+.side-text a{
+	display: inline-block;
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+	font-size: 16px;
+	background: #FFB400;
+	border-radius: 28px;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

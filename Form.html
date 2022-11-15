@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+<link href="417/formcss1.css" rel="stylesheet" type="text/css">
+
+<body>
+
+
+
+<font><header>
+  <div class="container">
+    <div class="nbar">
+      <div class="lego">
+        <a href="3rdpage.html"> PET STORE </a>
+      </div>
+<div>
+<a href="#"  class="bar"  >
+<i class="fa-solid fa-bars"></i>
+</a>
+</div>
+      <nav>
+        <ul>
+          <li><a href="Contact.html">CONTACT US</a></li>
+          
+        </ul>
+      </nav>
+</div>
+</div>
+</header></font>
+</body>
+
+<br>
+	<br></head>
+  <form action ="insertForm.php" method="post">	
+<center><body><h2>FILL THE FORM</h2>
+    <table cellpadding="10" cellspacing="2" align="center">
+        <tr>
+            <td class="col1">FULL NAME<br></td>
+            <td class="col2"><input type="text" name="FullName" id="FullName" placeholder="Enter your real name" pattern="[A-Z]{a-z}{1}" required></td>
+        </tr><br>
+        
+        <tr>
+           <td class="col1">PET<br></td>
+            <td class="col2">
+              <select name="petid" id="petid">
+                    <option value="P201">Cat</option>
+                    <option value="P202">Dog</option>
+                    <option value="P203">Rabbit</option>
+					<option value="P204">Fish</option>
+					<option value="P205">Hamster</option>
+					<option value="P206">Bird</option>
+              </select>
+            </td>
+        </tr>
+        <address>
+        <tr>
+            <td class="col1">ADDRESS</td>
+            <td class="col2">
+			  <select name="province" id="address">
+                    <option value="PATTANI">Pattani</option>
+                    <option value="YALA">Yala</option>
+                    <option value="NARATHIWAT">Narathiwat</option>
+              </select>
+				
+		        <br><input type="text" name = "address" placeholder="District,House Number, Soi, Moo, Road, and Subdistrict" data-meta="Field" value="" required ></td></tr></address>
+        <tr>
+            <td class="col1">EMAIL</td>
+            <td class="col2"><input type="EMAIL" name="EMAIL" id="Email" class="email" placeholder="name@example.com" pattern=" [a-20-9._*+-]+@[a-20-9.-]+1.[a-2](2,)5" required  ></td>
+        </tr>
+            <td class="col1">PHONE</td>
+            
+            <td class="col2"><input name="phone" id="txt_phone" type="text" Required="required"></td>        
+    </table>
+    <button type="submit" value="submit">Submit</button>
+
+  
+</body></center>
+	</form>
+</html>
